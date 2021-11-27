@@ -1,0 +1,37 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Fan_control_module_v2-Modules
+#
+DEF Fan_control_module_v2-Modules U 0 40 Y Y 1 F N
+F0 "U" 0 250 50 H V C CNN
+F1 "Fan_control_module_v2-Modules" 0 150 50 H V C CNN
+F2 "Modules:Fan_control_module" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -350 100 350 -100 0 1 0 N
+X Lin 1 -450 0 100 R 50 50 1 1 W
+X Lout 2 450 0 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# Power_manager_A-Modules
+#
+DEF Power_manager_A-Modules U 0 40 Y Y 1 F N
+F0 "U" 0 425 50 H V C CNN
+F1 "Power_manager_A-Modules" 0 350 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -350 300 350 -300 0 1 0 N
+X Lin 1 -450 200 100 R 50 50 1 1 W
+X PEin 2 -450 100 100 R 50 50 1 1 N N
+X Nin 3 -450 0 100 R 50 50 1 1 W
+X Ld1L 4 450 200 100 L 50 50 1 1 w
+X Ld1N 5 450 100 100 L 50 50 1 1 w
+X Ld2L 6 450 -100 100 L 50 50 1 1 w
+X Ld2N 7 450 -200 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Mother_module-rescue)(type Legacy)(uri ${KIPRJMOD}/Mother_module-rescue.lib)(options "")(descr ""))
+  (lib (name Mother_module_v3-rescue)(type Legacy)(uri ${KIPRJMOD}/Mother_module_v3-rescue.lib)(options "")(descr ""))
+)
