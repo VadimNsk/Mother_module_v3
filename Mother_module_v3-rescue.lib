@@ -15,6 +15,20 @@ X Lout 2 450 0 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
+# Fan_control_module_v3-Modules
+#
+DEF Fan_control_module_v3-Modules U 0 40 Y Y 1 F N
+F0 "U" 0 250 50 H V C CNN
+F1 "Fan_control_module_v3-Modules" 0 150 50 H V C CNN
+F2 "Modules:Fan_controller_v3" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -350 100 350 -100 0 1 0 N
+X Lin 1 -450 0 100 R 50 50 1 1 W
+X Lout 2 450 0 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
 # Power_manager_A-Modules
 #
 DEF Power_manager_A-Modules U 0 40 Y Y 1 F N
@@ -31,6 +45,37 @@ X Ld1L 4 450 200 100 L 50 50 1 1 w
 X Ld1N 5 450 100 100 L 50 50 1 1 w
 X Ld2L 6 450 -100 100 L 50 50 1 1 w
 X Ld2N 7 450 -200 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# Power_manager_v3-Modules
+#
+DEF Power_manager_v3-Modules U 0 40 Y Y 1 F N
+F0 "U" 0 650 50 H V C CNN
+F1 "Power_manager_v3-Modules" 0 -800 50 H V C CNN
+F2 "Modules:Power_manager_v3" 0 -900 50 H I C CNN
+F3 "" 0 300 50 H I C CNN
+DRAW
+S -350 600 350 -750 0 1 0 N
+P 2 0 1 0 350 0 -350 0 N
+X Lin 1 -450 500 100 R 50 50 1 1 W
+X Nin 2 -450 400 100 R 50 50 1 1 W
+X +5V 2.1 -500 -100 150 R 50 50 1 1 N
+X +5V 2.2 -500 -200 150 R 50 50 1 1 N
+X GND1 2.3 -500 -300 150 R 50 50 1 1 N
+X GND1 2.4 500 -300 150 L 50 50 1 1 N
+X +5P 2.5 500 -200 150 L 50 50 1 1 N
+X +5P 2.6 500 -100 150 L 50 50 1 1 N
+X Ld1L 3 450 500 100 L 50 50 1 1 w
+X GND1 3.1 500 -550 150 L 50 50 1 1 N
+X GND1 3.2 500 -650 150 L 50 50 1 1 N
+X +5V_state 3.3 500 -450 150 L 50 50 1 1 N
+X I2C_Int 3.4 -500 -650 150 R 50 50 1 1 N
+X scl0 3.5 -500 -450 150 R 50 50 1 1 N
+X sda0 3.6 -500 -550 150 R 50 50 1 1 N
+X Ld1N 4 450 400 100 L 50 50 1 1 w
+X Ld2L 5 450 200 100 L 50 50 1 1 w
+X Ld2N 6 450 100 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
