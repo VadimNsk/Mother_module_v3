@@ -206,8 +206,6 @@ Wire Wire Line
 	1400 2000 2150 2000
 Connection ~ 1700 2400
 Wire Wire Line
-	1700 2400 1350 2400
-Wire Wire Line
 	2150 2200 2200 2200
 Connection ~ 2150 2200
 Wire Wire Line
@@ -225,4 +223,6 @@ F 3 "" H 2650 1550 50  0001 C CNN
 	1    2650 1550
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1350 2400 1700 2400
 $EndSCHEMATC
