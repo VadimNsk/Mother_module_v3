@@ -1,0 +1,121 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Device_Fuse_Small
+#
+DEF Device_Fuse_Small F 0 10 N N 1 F N
+F0 "F" 0 -60 50 H V C CNN
+F1 "Device_Fuse_Small" 0 60 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SM*
+$ENDFPLIST
+DRAW
+S -50 20 50 -20 0 1 0 N
+P 2 0 1 0 -50 0 50 0 N
+X ~ 1 -100 0 50 R 50 50 1 1 P
+X ~ 2 100 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_Varistor
+#
+DEF Device_Varistor RV 0 0 N Y 1 F N
+F0 "RV" 125 0 50 V V C CNN
+F1 "Device_Varistor" -125 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ RV_*
+ Varistor*
+$ENDFPLIST
+DRAW
+T 0 -70 -80 50 0 0 0 U Normal 0 C C
+S -40 -100 40 100 0 1 10 N
+P 3 0 1 0 -75 100 -75 50 75 -50 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Modules_DG142R-02P
+#
+DEF Modules_DG142R-02P XP 0 40 Y Y 1 F N
+F0 "XP" -250 250 50 H V C CNN
+F1 "Modules_DG142R-02P" -200 150 50 H V C CNN
+F2 "Modules:XY122R-5.08-02P-14" -100 0 50 H I C CNN
+F3 "" -100 0 50 H I C CNN
+DRAW
+C -150 50 3 0 1 0 N
+C -150 50 9 0 1 0 N
+C -150 50 15 0 1 0 N
+S -100 100 -300 -150 0 1 0 N
+X ~ 1 0 0 100 L 50 50 1 1 P
+X ~ 2 0 -100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Modules_DG142R-2x2P
+#
+DEF Modules_DG142R-2x2P XP 0 40 Y Y 2 L N
+F0 "XP" -250 250 50 H V C CNN
+F1 "Modules_DG142R-2x2P" -200 150 50 H V C CNN
+F2 "Modules:XY122R-5.08-04P-14" -100 0 50 H I C CNN
+F3 "" -100 0 50 H I C CNN
+DRAW
+C -150 50 3 0 1 0 N
+C -150 50 9 0 1 0 N
+C -150 50 15 0 1 0 N
+S -100 100 -300 -150 0 1 0 N
+X ~ 1 0 0 100 L 50 50 1 1 P
+X ~ 2 0 -100 100 L 50 50 1 1 P
+X ~ 3 0 0 100 L 50 50 2 1 P
+X ~ 4 0 -100 100 L 50 50 2 1 P
+ENDDRAW
+ENDDEF
+#
+# Modules_Fan_control_module_v3
+#
+DEF Modules_Fan_control_module_v3 U 0 40 Y Y 1 F N
+F0 "U" 0 250 50 H V C CNN
+F1 "Modules_Fan_control_module_v3" 0 150 50 H V C CNN
+F2 "Modules:Fan_controller_v3" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -350 100 350 -100 0 1 0 N
+X Ld1 1 -450 0 100 R 50 50 1 1 W
+X Ld2 2 450 0 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# Modules_Power_manager_v3
+#
+DEF Modules_Power_manager_v3 U 0 40 Y Y 1 F N
+F0 "U" 0 350 50 H V C CNN
+F1 "Modules_Power_manager_v3" 0 -350 50 H V C CNN
+F2 "Modules:Power_manager_v3" 0 -450 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -350 300 350 -300 0 1 0 N
+X Lin 1 -450 200 100 R 50 50 1 1 W
+X Nin 2 -450 100 100 R 50 50 1 1 W
+X Ld1L 3 450 200 100 L 50 50 1 1 w
+X Ld1N 4 450 100 100 L 50 50 1 1 w
+X Ld2L 5 450 -100 100 L 50 50 1 1 w
+X Ld2N 6 450 -200 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# Modules_Virtual_Digital_module_v3
+#
+DEF Modules_Virtual_Digital_module_v3 U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "Modules_Virtual_Digital_module_v3" 0 0 50 H V C CNN
+F2 "Modules:Virtual_Digital_module_v3" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:\My_Documents\projects\smart_House\PCB\Climate_controller\Mother_module_v3\Mother_module_v3.sch</source>
+    <date>18.01.2022 17:26:39</date>
+    <tool>Eeschema (5.1.10)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Mother_module_v3.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="F1">
+      <value>0.5A</value>
+      <footprint>Modules:FC-05C-E_4x15</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Fuse_Small" description="Fuse, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC9D27F</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>470V</value>
+      <footprint>Varistor:RV_Disc_D7mm_W4.5mm_P5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Varistor" description="Voltage dependent resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC9DD8F</tstamp>
+    </comp>
+    <comp ref="XP3">
+      <value>LoadX</value>
+      <footprint>Modules:XY122R-5.08-04P-14</footprint>
+      <libsource lib="Modules" part="DG142R-2x2P" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609324F4</tstamp>
+    </comp>
+    <comp ref="XP1">
+      <value>ACin</value>
+      <footprint>Modules:XY122R-5.08-02P-14</footprint>
+      <libsource lib="Modules" part="DG142R-02P" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62220B66</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>Virtual_Digital_module_v3</value>
+      <footprint>Modules:Virtual_Digital_module_v3</footprint>
+      <libsource lib="Modules" part="Virtual_Digital_module_v3" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63FC2A9F</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>Fan_control_module_v3</value>
+      <footprint>Modules:Fan_controller_v3</footprint>
+      <libsource lib="Modules" part="Fan_control_module_v3" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>621EE1E1</tstamp>
+    </comp>
+    <comp ref="XP2">
+      <value>ACin</value>
+      <footprint>Modules:XY122R-5.08-02P-14</footprint>
+      <libsource lib="Modules" part="DG142R-02P" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62221B61</tstamp>
+    </comp>
+    <comp ref="XP4">
+      <value>LoadX</value>
+      <footprint>Modules:XY122R-5.08-02P-14</footprint>
+      <libsource lib="Modules" part="DG142R-02P" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6223BA47</tstamp>
+    </comp>
+    <comp ref="F2">
+      <value>0.5A</value>
+      <footprint>Modules:FC-05C-E_4x15</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Fuse_Small" description="Fuse, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>622DE5C8</tstamp>
+    </comp>
+    <comp ref="RV2">
+      <value>470V</value>
+      <footprint>Varistor:RV_Disc_D7mm_W4.5mm_P5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Varistor" description="Voltage dependent resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>622DE5D3</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>Power_manager_v3-Modules</value>
+      <footprint>Modules:Power_manager_v3</footprint>
+      <libsource lib="Modules" part="Power_manager_v3" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6218B0A9</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="Fuse_Small">
+      <description>Fuse, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Varistor">
+      <description>Voltage dependent resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>RV_*</fp>
+        <fp>Varistor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">Varistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Modules" part="DG142R-02P">
+      <fields>
+        <field name="Reference">XP</field>
+        <field name="Value">DG142R-02P</field>
+        <field name="Footprint">Modules:XY122R-5.08-02P-14</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Modules" part="DG142R-2x2P">
+      <fields>
+        <field name="Reference">XP</field>
+        <field name="Value">DG142R-2x2P</field>
+        <field name="Footprint">Modules:XY122R-5.08-04P-14</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Modules" part="Fan_control_module_v3">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Fan_control_module_v3</field>
+        <field name="Footprint">Modules:Fan_controller_v3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Ld1" type="power_in"/>
+        <pin num="2" name="Ld2" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Modules" part="Power_manager_v3">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Power_manager_v3</field>
+        <field name="Footprint">Modules:Power_manager_v3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Lin" type="power_in"/>
+        <pin num="2" name="Nin" type="power_in"/>
+        <pin num="3" name="Ld1L" type="power_out"/>
+        <pin num="4" name="Ld1N" type="power_out"/>
+        <pin num="5" name="Ld2L" type="power_out"/>
+        <pin num="6" name="Ld2N" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Modules" part="Virtual_Digital_module_v3">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Virtual_Digital_module_v3</field>
+        <field name="Footprint">Modules:Virtual_Digital_module_v3</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program_Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Modules">
+      <uri>D:/My_Documents/projects/smart_House/PCB/KiCAD_libraries/Modules.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(F2-Pad2)">
+      <node ref="XP2" pin="2"/>
+      <node ref="F2" pin="2"/>
+    </net>
+    <net code="2" name="Net-(U3-Pad1)">
+      <node ref="XP4" pin="1"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="3" name="Net-(F2-Pad1)">
+      <node ref="U3" pin="2"/>
+      <node ref="RV2" pin="1"/>
+      <node ref="F2" pin="1"/>
+    </net>
+    <net code="4" name="Net-(RV2-Pad2)">
+      <node ref="RV2" pin="2"/>
+      <node ref="XP4" pin="2"/>
+      <node ref="XP2" pin="1"/>
+    </net>
+    <net code="5" name="Net-(U2-Pad5)">
+      <node ref="U2" pin="5"/>
+      <node ref="XP3" pin="1"/>
+    </net>
+    <net code="6" name="Net-(RV1-Pad2)">
+      <node ref="RV1" pin="2"/>
+      <node ref="XP1" pin="1"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="7" name="Net-(F1-Pad1)">
+      <node ref="RV1" pin="1"/>
+      <node ref="F1" pin="1"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="8" name="Net-(U2-Pad4)">
+      <node ref="XP3" pin="3"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="9" name="Net-(U2-Pad3)">
+      <node ref="XP3" pin="4"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="10" name="Net-(F1-Pad2)">
+      <node ref="XP1" pin="2"/>
+      <node ref="F1" pin="2"/>
+    </net>
+    <net code="11" name="Net-(U2-Pad6)">
+      <node ref="XP3" pin="2"/>
+      <node ref="U2" pin="6"/>
+    </net>
+  </nets>
+</export>

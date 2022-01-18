@@ -1,0 +1,34 @@
+"Source:","D:\My_Documents\projects\smart_House\PCB\Climate_controller\Mother_module_v3\Mother_module_v3.sch"
+"Date:","18.01.2022 17:26:39"
+"Tool:","Eeschema (5.1.10)-1"
+"Generator:","C:\Program_Files\KiCad\bin\scripting\plugins/bom_csv_grouped_by_value.py"
+"Component Count:","11"
+
+"Individual Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet"
+"","","F1","0.5A","Device:Fuse_Small","Modules:FC-05C-E_4x15","~"
+"","","F2","0.5A","Device:Fuse_Small","Modules:FC-05C-E_4x15","~"
+"","","RV1","470V","Device:Varistor","Varistor:RV_Disc_D7mm_W4.5mm_P5mm","~"
+"","","RV2","470V","Device:Varistor","Varistor:RV_Disc_D7mm_W4.5mm_P5mm","~"
+"","","U1","Virtual_Digital_module_v3","Modules:Virtual_Digital_module_v3","Modules:Virtual_Digital_module_v3",""
+"","","U2","Power_manager_v3-Modules","Modules:Power_manager_v3","Modules:Power_manager_v3",""
+"","","U3","Fan_control_module_v3","Modules:Fan_control_module_v3","Modules:Fan_controller_v3",""
+"","","XP1","ACin","Modules:DG142R-02P","Modules:XY122R-5.08-02P-14",""
+"","","XP2","ACin","Modules:DG142R-02P","Modules:XY122R-5.08-02P-14",""
+"","","XP3","LoadX","Modules:DG142R-2x2P","Modules:XY122R-5.08-04P-14",""
+"","","XP4","LoadX","Modules:DG142R-02P","Modules:XY122R-5.08-02P-14",""
+
+
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet"
+"1","2","F1, F2","0.5A","Device:Fuse_Small","Modules:FC-05C-E_4x15","~"
+"2","2","RV1, RV2","470V","Device:Varistor","Varistor:RV_Disc_D7mm_W4.5mm_P5mm","~"
+"3","1","U1","Virtual_Digital_module_v3","Modules:Virtual_Digital_module_v3","Modules:Virtual_Digital_module_v3",""
+"4","1","U2","Power_manager_v3-Modules","Modules:Power_manager_v3","Modules:Power_manager_v3",""
+"5","1","U3","Fan_control_module_v3","Modules:Fan_control_module_v3","Modules:Fan_controller_v3",""
+"6","2","XP1, XP2","ACin","Modules:DG142R-02P","Modules:XY122R-5.08-02P-14",""
+"7","1","XP3","LoadX","Modules:DG142R-2x2P","Modules:XY122R-5.08-04P-14",""
+"8","1","XP4","LoadX","Modules:DG142R-02P","Modules:XY122R-5.08-02P-14",""
